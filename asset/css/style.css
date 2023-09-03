@@ -1,5 +1,5 @@
 .container {
-padding-left: 50px;
+    padding-left: 50px;
     text-align: center;
     width: 30%;
     margin-top: 5%;
@@ -10,7 +10,7 @@ padding-left: 50px;
     border-radius: 10px;
 }
 
-img{
+img {
     width: 150px;
     border-radius: 3px;
 }
@@ -36,4 +36,3 @@ button {
 button:hover {
     background-color: gray;
 }
-
