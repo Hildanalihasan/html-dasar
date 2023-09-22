@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product API</title>
+    <link rel="stylesheet" href="../asset/css/productapi.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <h3>MUNDIAL STORE</h3>
+      <div class="kanan">
+        <img src="../asset/icon/shopping-cart.svg" alt="cart" />
+        <img src="../asset/icon/user.svg" alt="" />
+        <input class="search" name="navbar" type="text" placeholder="Search" />
+        <button class="button-search" name="navbar" type="button" name="search">
+          Search
+        </button>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <img class="arrow" src="../asset/icon/arrow-left.svg" />
+    <!-- Content -->
+
+    <div class="content">
+      <div class="pict-product">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img
+              src="../asset/img/product/adidasxcrazyfast3.jpeg"
+              style="width: 100%"
+            />
+            <div class="text">Adidas x Crazyfast.3</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img
+              src="../asset/img/product/abb498dd03df47ddb5a658ead338033a_f540__84764.jpg"
+              style="width: 100%"
+            />
+            <div class="text">Adidas x Crazyfast.3</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img
+              src="../asset/img/product/269a3bb6-2010-4c55-8cf4-b7cc5603f38a-id-11134207-7qul9-liy9z6a6knl646.jpeg"
+              style="width: 100%"
+            />
+            <div class="text">Adidas x Crazyfast.3</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <div class="product-detail">
+        <div class="pict-product-detail">
+          <img
+            src="../asset/img/product/adidasxcrazyfast3.jpeg"
+            alt="adidasxcrazyfast3"
+          />
+          <br />
+          <img
+            src="../asset/img/product/abb498dd03df47ddb5a658ead338033a_f540__84764.jpg"
+            alt="adidasxcrazyfast3"
+          />
+          <br />
+          <img
+            src="../asset/img/product/269a3bb6-2010-4c55-8cf4-b7cc5603f38a-id-11134207-7qul9-liy9z6a6knl646.jpeg"
+            alt="adidasxcrazyfast3"
+          />
+        </div>
+      </div>
+      <div class="descript">
+        <h1>Adidas x Crazyfast.3</h1>
+        <h1>Rp. 1.500.000</h1>
+        <div class="star-sold">
+          <div class="star">
+            <img src="../asset/icon/star-1.svg" alt="star-1" />
+            <img src="../asset/icon/star-1.svg" alt="star-1" />
+            <img src="../asset/icon/star-1.svg" alt="star-1" />
+            <img src="../asset/icon/star-1.svg" alt="star-1" />
+            <img src="../asset/icon/star-1.svg" alt="star-1" />
+          </div>
+          <div class="sold"><b> | 121</b> Sold</div>
+        </div>
+        <br />
+        <div class="cart-buy">
+          <button class="cart-now" type="button">Cart</button>
+          <button class="buy-now" type="button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="list-product" id="list-product"></div>
+
+    <!-- Content end -->
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <p>
+        Design by : <a href="instagram.com/asibauiux">@asibauiux</a> | Create by
+        : <a href="instagram.com/hildnadisq_">@hildnadisq_</a>
+      </p>
+    </footer>
+
+    <!-- Footer end -->
+
+    <script src="../asset/js/productapi.js"></script>
+  </body>
+</html>
